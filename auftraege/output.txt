@@ -1,0 +1,24 @@
+readme.txt
+systemd-private-1844c64128f64a88aaa51a718c88758e-systemd-timesyncd.service-G3i9Hx
+vmware-root
+
+readme.txt
+systemd-private-1844c64128f64a88aaa51a718c88758e-systemd-timesyncd.service-G3i9Hx
+vmware-root
+   PID TTY          TIME CMD
+  1091 tty1     00:00:00 login
+  1111 tty1     00:00:00 bash
+  1821 tty1     00:00:00 perl
+  2084 tty1     00:00:00 sh
+  2086 tty1     00:00:00 ps
+
+readme.txt
+systemd-private-1844c64128f64a88aaa51a718c88758e-systemd-timesyncd.service-G3i9Hx
+vmware-root
+   PID TTY          TIME CMD
+  1091 tty1     00:00:00 login
+  1111 tty1     00:00:00 bash
+  1821 tty1     00:00:00 perl
+  2107 tty1     00:00:00 sh
+  2109 tty1     00:00:00 ps
+

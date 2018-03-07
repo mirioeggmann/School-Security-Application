@@ -16,6 +16,7 @@ Log::Log4perl->easy_init( {level => $DEBUG, layout => '%d %F{1} (%L) -> %m%n'} )
 my $log = Log::Log4perl->get_logger();
 
 $log->info('starting server');
+$log->debug('testme');
 
 # log and end on ctrl+c signal
 $SIG{'INT'} = sub { $log->info('ctrl+c pressed'); exit 0};
