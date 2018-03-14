@@ -24,10 +24,11 @@ if ( -e '/tmp/ziu_session.txt' ) {
 # flatten ARGV into string
 my $command = join ' ', @ARGV;
 
-# if a login is attemped ask password from STDIN
+# if a login is attemped ask for username and password from STDIN
 if ($command =~ /^login/) {
+    my $username = prompt('Username:', '-stdio');
+    $command .= " $username";
     my $pw = prompt('Password:', -echo=>'*', '-stdio');
-
     $command .= " $pw";
 }
  
